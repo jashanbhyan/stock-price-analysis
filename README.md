@@ -1,38 +1,60 @@
-# stock-price-analysis
-Stock market data analysis using Python, EDA, visualization, hypothesis testing, and machine learning.
 # 📊 Stock Price Analysis Project
 
-This project analyzes stock market data using Python and data science techniques.
+This project performs **data analysis, visualization, statistical testing, and machine learning** on stock market data.
+
+---
 
 ## 🔍 Objectives
-- Analyze company-wise trading volume
+- Analyze trading volume
 - Identify stock price trends
 - Perform monthly analysis
 - Measure volatility
-- Find correlation between price and volume
-- Detect outliers
-- Apply hypothesis testing (T-test)
-- Predict stock prices using Machine Learning
+- Correlation analysis
+- Outlier detection
+- Hypothesis testing (T-test)
+- Stock price prediction using ML
 
-## 🛠 Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+---
 
 ## 📁 Dataset
-The dataset contains stock prices of companies like AAPL, AMZN, MSFT, etc., including:
+Stock data includes:
 - Open, High, Low, Close prices
 - Volume
 - Date
+- Company ticker
 
-## 📈 Key Results
-- AAPL has the highest trading volume
-- Negative correlation between price and volume
-- Significant difference in prices (T-test)
-- High model accuracy using Linear Regression
+---
+
+## 📊 Visualizations
+
+### Price Trend
+![Trend](images/price_trend.png)
+
+### Volume Analysis
+![Volume](images/volume.png)
+
+### Correlation Heatmap
+![Heatmap](images/heatmap.png)
+
+---
+
+## 🤖 Machine Learning Model
+- Model: Linear Regression
+- Predicts closing price
+
+### Performance:
+- R² Score: Add your value
+- MAE: Add your value
+- RMSE: Add your value
+
+---
 
 ## 📌 Conclusion
-The project successfully identifies trends, patterns, and relationships in stock market data and demonstrates predictive modeling.
+The project successfully analyzes stock trends and builds a prediction model using machine learning.
+
+---
+
+## 🚀 How to Run
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+python stock_project.py
